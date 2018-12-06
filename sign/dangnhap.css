@@ -1,0 +1,51 @@
+body {
+    font-family: "roboto", sans-serif;
+    font-size: 20px;
+    background-color: #f5f5f5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  form {
+     padding: 2.5rem 2rem;
+     background-color: white;
+     border-radius: 15px;
+     box-shadow: 0px 4px 10px rgba(0,0,0,.3);
+  }
+  
+  form h2 {
+    text-align: center;
+  }
+  
+  input {
+    border: none;
+    padding: 10px 6px;
+    border-bottom: 1px solid rgba(0,0,0,.3 );
+    outline: none;
+    margin: 5px;
+  }
+  
+  form p {
+    text-align: center;
+    font-size: .8rem;
+  }
+  
+  .btn {
+     text-align: center;
+     width: 100%;
+     border: none;
+     padding: 10px 5px;
+     margin: 10px 0;
+     border-radius: 12px;
+     outline: none;
+     color: white;
+     background-image: linear-gradient(to top, #ff0844 0%, #ffb199 100%);
+  
+  }
+  
+  .btn:hover {
+    background-image: linear-gradient(to top, #ff0844 100%, #ffb199 0%);
+  }
+  
